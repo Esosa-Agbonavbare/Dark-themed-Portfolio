@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Sample portfolio website">
+    <meta name="author" content="Esosa Stephen Agbonavbare">
+    <title>Jane Doe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="sidenav">
+        <img class="img-sidenav" src="src/portrait-beautiful-woman-black-dress-dark-wall (3).jpg" alt="Image_by_cookie_studio_on_Freepik"> 
+        <div id="myDiv" class="sidenav-child">
+            <a class="sidenav-item s-active" href="#Home">
+                <i class="bi bi-house-door-fill" style="font-size:32px;"></i> 
+                <p>HOME</p>
+            </a>
+            <a class="sidenav-item" href="#About">
+                <i class="bi bi-person-fill" style="font-size:32px;"></i> 
+                <p>ABOUT</p>
+            </a>
+            <a class="sidenav-item" href="#Photos">
+                <i class="bi bi-eye-fill" style="font-size:32px;"></i>
+                <p>PHOTOS</p>
+            </a>
+            <a class="sidenav-item" href="#Contact">
+                <i class="bi bi-envelope-fill" style="font-size:32px;"></i>
+                <p>CONTACT</p>
+            </a>
+        </div>
+    </div>
+    <nav>
+        <a class="topnav" onclick="activeTab(event)" href="#Home">HOME</a>
+        <a class="topnav" onclick="activeTab(event)" href="#About">ABOUT</a>
+        <a class="topnav" onclick="activeTab(event)" href="#Photos">PHOTOS</a>
+        <a class="topnav" onclick="activeTab(event)" href="#Contact">CONTACT</a>
+    </nav>
+
+    <div class="main">
+        <section class="header-a" id="Home">
+            <h1><span>I'm</span> Jane <span>Doe.</span></h1>
+            <p>Photographer and Content Creator.</p>
+        </section>
+    
+        <img class="img" src="src/portrait-beautiful-woman-black-dress-dark-wall (2).jpg" alt="Image_by_cookie_studio_on_Freepik"> 
+        
+        <div class="headings" id="About">
+            <div class="section_b">
+                <h2>My Name</h2>
+                <p class="hr">______________________</p>
+                <p>
+                    Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                    deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>  
+    
+            <div class="my_skills">
+                <h3 class="p_skills">My skills</h3>
+                <p class="opac">Photography</p>
+                <div class="container">
+                    <div class="skills photo"><span>90%</span></div>
+                </div>
+                <p class="opac">Content Creation</p>
+                <div class="container">
+                    <div class="skills design"><span>80%</span></div>
+                </div>
+                <p class="opac">Photoshop</p>
+                <div class="container">
+                    <div class="skills photoshop"><span>75%</span></div>
+                </div>
+                <div class="record">
+                    <p>11+ <br> <span>Partners</span></p>
+                    <p>55+ <br> <span>Projects Done</span></p>
+                    <p>89+ <br> <span>Happy Clients</span></p>
+                    <p>150+ <br> <span>Meetings</span></p>
+                </div>
+                <button>Download Resume</button>
+            </div>
+    
+            <div class="my_price">
+                <h3>My Price</h3>
+                <div class="p-column">
+                    <div class="columns">
+                        <ul class="price">
+                          <li class="header">Basic</li>
+                          <li>Content Creation</li>
+                          <li>Photography</li>
+                          <li>5GB Storage</li>
+                          <li>Mail Support</li>
+                          <li class="no_border"><span> $ 10</span><b style="opacity: 0.5; font-weight: 100;">per month</b></li>
+                          <li><a href="#sign_up" class="button">Sign Up</a></li>
+                        </ul>
+                    </div>
+                    <div class="columns">
+                        <ul class="price">
+                          <li class="header">Pro</li>
+                          <li>Content Creation</li>
+                          <li>Photography</li>
+                          <li>50GB Storage</li>
+                          <li>Endless Support</li>
+                          <li class="no_border"><span>$ 25</span><b style="opacity: 0.5; font-weight: 100;">per month</b></li>
+                          <li><a href="#sign_up" class="button">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="my_reputation">
+                <h3>My Reputation</h3>
+                <div class="avatars">
+                    <img src="src/bandmember_1.jpg" alt="Chris_Fox">
+                    <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+                    <p>Jane Doe saved us from a corporate disaster.</p><br>
+                </div>
+                <div class="avatars">
+                    <img src="src/bandmember-2.jpg" alt="Rebecca_Flex">
+                    <p><span>Rebecca Flex.</span> CEO at Company.</p>
+                    <p>No one is better than Jane Doe.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="my_photos headings " id="Photos">
+            <h2>My Photos</h2>
+            <p class="hr">______________________</p>
+            <div class="f_photos">
+                <div class="row_photos">
+                    <img src="src/istockphoto-480208723-612x612 (2).jpg" alt="istockphoto-480208723-612x612 (2).jpg">
+                    <img src="src/photo-1552374196-1ab2a1c593e8.jpeg" alt="stylish_man">
+                </div>
+                <div class="row_photos">
+                    <img src="src/young-woman-posing-sensually (1).jpg" alt="Image_by_Freestock_studio_on_Freepik">
+                    <img src="src/black-white-minimal-portrait (1).jpg" alt="Image_by_Freepik">
+                    <img src="src/portrait-beautiful-brunette-with-long-hair (1).jpg" alt="Image_by_Racool_studio_on_Freepik">
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="contact headings" id="Contact">
+            <h2 class="con_text">Contact Me</h2>
+            <p class="hr">______________________</p>
+            <div class="con_details">
+                <p><i class="bi bi-geo-alt-fill" style="font-size:32px;"></i>Chicago, US</p>
+                <p><i class="bi bi-telephone-fill" style="font-size:32px;"></i> Phone: +00 23423456</p>
+                <p><i class="bi bi-envelope-fill" style="font-size:32px;"></i> Email: mail@mail.com</p>
+            </div>
+            <p class="message">Lets get in touch. Send me a message:</p>
+            <div>
+                <form action="#">
+                    <input type="text" name="Name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="Subject" placeholder="Subject">
+                    <input type="text" name="Message" placeholder="Message">
+                    <button class="bttn"><i class="bi bi-send-fill" style="font-size: 16px;"></i>SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+        <div class="media-links">
+            <a href="#"><i class="bi bi-facebook" style="font-size:16px;color: white;"></i></a>
+            <a href="#"><i class="bi bi-instagram" style="font-size:16px;color: white;"></i></a>
+            <a href="#"><i class="bi bi-snapchat" style="font-size:16px;color: white;"></i></a>
+            <a href="#"><i class="bi bi-pinterest" style="font-size:16px;color: white;"></i></a>
+            <a href="#"><i class="bi bi-twitter" style="font-size:16px;color: white;"></i></a>
+            <a href="#"><i class="bi bi-linkedin" style="font-size:16px;color: white;"></i></a>
+        </div>
+        <p class="credit">Adapted from W3Schools...</p>
+    </div>
+
+
+    <script>
+        function activeTab(event) {
+            let i, tablist;
+            tablist = document.getElementsByClassName("topnav");
+            for (let i = 0; i < tablist.length; i++) {
+                tablist[i].className = tablist[i].className.replace("active" , "") ;
+            }
+            event.currentTarget.className += " active";
+        }
+
+        var header = document.getElementById("myDiv");
+        var btns = header.getElementsByClassName("sidenav-item");
+        for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("s-active");
+            current[0].className = current[0].className.replace(" s-active", "");
+            this.className += " s-active";
+        });
+        }
+    </script>
+</body>
+</html>
